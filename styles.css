@@ -173,7 +173,7 @@ header {
     background: var(--clr-accent);
   }
   70% {
-    transform: translateX(30vw);
+    transform: translateX(25vw);
     background: var(--clr-accent);
   }
 }
