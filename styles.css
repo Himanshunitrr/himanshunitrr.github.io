@@ -159,7 +159,7 @@ header {
   animation: move 3s infinite;
   color: white;
   margin-left: 105px;
-  z-index: 1111;
+  z-index: 11;
   font-size: var(--fs-h3);
 }
 
