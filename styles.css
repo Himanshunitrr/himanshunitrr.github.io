@@ -172,10 +172,6 @@ header {
     transform: translateX(20vw);
     background: var(--clr-accent);
   }
-  70% {
-    transform: translateX(25vw);
-    background: var(--clr-accent);
-  }
 }
 
 .nav {
