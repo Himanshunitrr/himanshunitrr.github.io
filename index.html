@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Himanshu Portfolio Website</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a092a50542.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="./img/logo.png" alt="&lt; dev Himanshu &gt;" />
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+        <li class="nav__item">
+          <a href="#services" class="nav__link">Services</a>
+        </li>
+        <li class="nav__item">
+          <a href="#about" class="nav__link">About</a>
+        </li>
+        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Intro -->
+
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+      Hi, I am <strong>Himanshu</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+    <img src="./img/me.jpg" alt="mine picture" class="intro__img" />
+  </section>
+
+  <!-- My services -->
+  <section class="my-services" id="services">
+    <h2 class="section__title section__title--services">What I do</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Design + Development</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+          ullam a rem odit unde tempora et sint expedita nihil quidem?
+        </p>
+      </div>
+
+      <div class="service">
+        <h3>qwertyuiop</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores
+          veritatis corrupti exercitationem distinctio ratione cum obcaecati
+          repellat, fuga a suscipit.
+        </p>
+      </div>
+
+      <div class="service">
+        <h3>qwertyuiop</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fugit
+          debitis dignissimos labore asperiores enim voluptatum quod tempore
+          ab non?
+        </p>
+      </div>
+    </div>
+    <a href="#work" class="btn">My Work</a>
+  </section>
+
+  <!-- About me -->
+  <section class="about-me" id="about">
+    <h2 class="section__title section__title--about">Who i am</h2>
+    <p class="section__subtitle section__subtitle--about">Designer & developer </p>
+
+    <div class="about-me__body">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+        eaque ratione. Quibusdam deleniti adipisci voluptatum similique sequi
+        rem nulla itaque.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam,
+        assumenda. Sed fugiat laboriosam blanditiis quo reiciendis, nihil
+        animi assumenda porro.
+      </p>
+    </div>
+
+    <img src="./img/me1.jpg" alt="" class="about-me__img" />
+  </section>
+
+  <!-- My work -->
+  <section class="my-work" id="work">
+    <h2 class="section__title section__title--work">My work</h2>
+    <p class="section__subtitle section__subtitle--work">A glimpse of my range of work</p>
+    <div class="portfolio">
+      <a href="./portfolio-index.html" class="portfolio__item"  target="_blank">
+        <img src="./img/my_work.jpg" alt="" class="portfolio__img" />
+      </a>
+      <!-- <a href="#" class="portfolio__item" target="_blank">
+        <img src="./img/me.jpg" alt="" class="portfolio__img" />
+      </a>
+      <a href="#" class="portfolio__item" target="_blank">
+        <img src="./img/me.jpg" alt="" class="portfolio__img" />
+      </a>
+      <a href="#" class="portfolio__item" target="_blank">
+        <img src="./img/me.jpg" alt="" class="portfolio__img" />
+      </a> -->
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="footer">
+    <a href="mailto:himanshumauryacrz@gmail.com" class="footer__link">himanshumauryacrz@gmail.com</a>
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a class="social-list__link" href="http://codeopen.io" target="_blank"><i class="fab fa-codepen"></i></a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="http://dribbble.com" target="_blank"><i class="fab fa-dribbble"></i></a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https:github.com"  target="_blank"><i class="fab fa-github"></i></a>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="./index.js"></script>
+
+</body>
+
+</html>
