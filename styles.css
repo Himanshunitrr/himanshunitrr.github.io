@@ -154,6 +154,30 @@ header {
   z-index: 9999;
 }
 
+.run{
+  background: var(--clr-optional);
+  animation: move 3s infinite;
+  color: white;
+  margin-left: 105px;
+  z-index: 1111;
+  font-size: var(--fs-h3);
+}
+
+@keyframes move {
+  20% {
+    transform: translateX(10vw);
+    background: var(--clr-accent);
+  }
+  40% {
+    transform: translateX(20vw);
+    background: var(--clr-accent);
+  }
+  70% {
+    transform: translateX(30vw);
+    background: var(--clr-accent);
+  }
+}
+
 .nav {
   position: fixed;
   background: var(--clr-dark);
@@ -473,7 +497,7 @@ header {
   margin-bottom: 0em;
   margin-top: 3px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;   
   font-size: var(--fw-bold);
   color: var(--clr-accent);
 }
