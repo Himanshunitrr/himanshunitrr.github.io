@@ -263,7 +263,7 @@ header {
   animation-iteration-count: infinite;
 }
 #welcome-section h1{
-  margin-top: 40vh;
+  padding-top: 40vh;
 }
 @keyframes rainbow{
   0%   {background-color: #ED6A5A;}
