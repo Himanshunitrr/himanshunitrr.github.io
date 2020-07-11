@@ -266,11 +266,11 @@ header {
   margin-top: 40vh;
 }
 @keyframes rainbow{
-  0%   {background-color: red;}
-  20%  {background-color: yellow;}
-  40%  {background-color: blue;}
-  60%  {background-color: green;}
-  80%  {background-color: black;}
+  0%   {background-color: #ED6A5A;}
+  20%  {background-color: #9B287B;}
+  40%  {background-color: #FAE3E3;}
+  60%  {background-color: #85CB33;}
+  80%  {background-color: #56E39F;}
 }
 
 .intro {
