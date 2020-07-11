@@ -256,7 +256,7 @@ header {
 #welcome-section{
   height: 100vh;
   width: auto;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   animation-name: rainbow;
   animation-duration: 4s;
