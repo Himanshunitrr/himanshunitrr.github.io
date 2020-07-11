@@ -262,6 +262,9 @@ header {
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
+#welcome-section h1{
+  margin-top: 40vh;
+}
 @keyframes rainbow{
   0%   {background-color: red;}
   20%  {background-color: yellow;}
