@@ -268,6 +268,7 @@ header {
 
 #alm {
   padding-top: 40vh;
+  font-size: 5vw;
 }
 #alm2, #alm4{
   animation-direction: reverse;
@@ -319,7 +320,6 @@ header {
     left: -1.5em;
     width: calc(100% + 1.5em);
   }
-
   
 }
 
