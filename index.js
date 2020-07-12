@@ -465,4 +465,8 @@ $(function () {
         strings: ["C++","Python", "JavaScript", "HTML", "CSS", "OpenCV", "React", "NumPy", "Linux", "Bash-Scripting", "Node.js", "Express.js", "MongoDB"],
         typeSpeed: 100
     });
+    $("#quote2").typed({
+        strings: ["All Lives Matter"],
+        typeSpeed: 100
+    });
 });

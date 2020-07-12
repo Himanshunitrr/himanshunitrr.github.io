@@ -253,38 +253,19 @@ header {
 
 
 /* Intro section */
-.container-ws{
-  display: flex;
-}
-.welcome-section{
+.alm{
+  width: 100vw;
   height: 100vh;
-  width: 20vw;
-  color: #000000;
-  text-align: center;
-  animation-name: rainbow;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
+  background: var(--clr-dark);
 }
-
-#alm {
+.alm span{
+  color: var(--clr-accent);
+  font-size: var(--fs-h2);
+  padding-top: 40vw;
+}
+.alm-pad{
   padding-top: 40vh;
-  font-size: 5vw;
 }
-#alm2, #alm4{
-  animation-direction: reverse;
-}
-@keyframes rainbow{
-  0%   {background-color: #FE5F55;}
-  20%  {background-color: #067BC2;}
-  40%  {background-color: #ECC30B;}
-  60%  {background-color: #A1FCDF;}
-  80%  {background-color: #EF476F;}
-  100%  {
-    background-color: #000000;
-    color: #ffffff;
-  }
-}
-
 .intro {
   position: relative;
 }
