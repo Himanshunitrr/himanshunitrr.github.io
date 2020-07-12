@@ -9,6 +9,9 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a092a50542.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./styles.css" />
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
 </head>
 
 <body>
@@ -34,15 +37,25 @@
   </header>
 
   <!-- Intro -->
-  <div id="welcome-section">
-    <h1>All Lives Matter</h1>
+  <div class="container-ws">
+    <div class="welcome-section" id="alm1">
+    </div>
+    <div class="welcome-section" id="alm2">
+    </div>
+    <div class="welcome-section" id="alm3">
+      <h1 id="alm">All Lives Matter</h1>
+    </div>
+    <div class="welcome-section" id="alm4">
+    </div>
+    <div class="welcome-section" id="alm5">
+    </div>
   </div>
   <section class="intro" id="home">
     <h1 class="section__title section__title--intro">
       Hi, I am <strong>Himanshu</strong>
     </h1>
     <p class="section__subtitle section__subtitle--intro">Full stack dev</p>
-    <img src="./img/me.jpg" alt="mine picture" class="intro__img" />
+    <img src="./img/me1.jpg" alt="mine picture" class="intro__img" />
   </section>
 
   <!-- My services -->
@@ -56,6 +69,12 @@
           and aesthetically pleasing.
         </p>
       </div>
+      <div class="service">
+        <h3>Machine Learning</h3>
+        <p>
+          Working with Tensorflow, Keras and OpenCV to use the enormous data generated in the world to feed the Neural Network to find patterns which will make our Lives easier and fun !!
+        </p>
+      </div>
 
       <div class="service">
         <h3>Ethical Hacking</h3>
@@ -65,7 +84,7 @@
         </p>
       </div>
 
-      <div class="service">
+      <div class="service" id="save">
         <h3>Open Sources</h3>
         <p>
           Its a pleasure for everyone in the developer community to learn and code for the betterment of
@@ -78,20 +97,24 @@
 
   <!-- About me -->
   <section class="about-me" id="about">
-    <h2 class="section__title section__title--about">Who i am</h2>
-    <p class="section__subtitle section__subtitle--about">Designer & developer (newbie at hacking) </p>
+    <h2 class="section__title section__title--about">Who I am</h2>
+    <p class="section__subtitle section__subtitle--about">Full-Stack developer || ML Enthusiast</p>
 
     <div class="about-me__body">
       <p>
         I am an undergrad at NIT Raipur who loves sitting in front of my laptop learning new things. 
-        I know web development(full- stack) and try some bounties. Please visit 
-        <a href="https://www.linkedin.com/in/himanshu-m-432608b7/" target="_blank">my linkedin profile </a>for knowing me more and for mine skills.
+        Learning new things in Web Development, Practice ML and try some bounties.
       </p>
     </div>
 
-    <img src="./img/me1.jpg" alt="" class="about-me__img" />
+    <img src="./img/me.jpg" alt="" class="about-me__img" />
   </section>
-
+  <!-- Skills -->
+  <div class="typing-animation">
+    <h1>Languages/Libraries which I enjoy</h1>
+    <span id="quote"></span>
+  </div>
+  
   <!-- My work -->
   <section class="my-work" id="work">
     <h2 class="section__title section__title--work">My work</h2>
@@ -100,10 +123,11 @@
       <a href="./portfolio-index.html" class="portfolio__item"  target="_blank">
         <img src="./img/my_work.jpg" alt="" class="portfolio__img" />
       </a>
-      <!-- <a href="#" class="portfolio__item" target="_blank">
-        <img src="./img/me.jpg" alt="" class="portfolio__img" />
+      <a href="./portfolio-index.html" class="portfolio__item"  target="_blank">
+        <img src="./img/my_work.jpg" alt="" class="portfolio__img" />
       </a>
-      <a href="#" class="portfolio__item" target="_blank">
+
+      <!-- <a href="#" class="portfolio__item" target="_blank">
         <img src="./img/me.jpg" alt="" class="portfolio__img" />
       </a>
       <a href="#" class="portfolio__item" target="_blank">
@@ -127,6 +151,9 @@
       </li>
       <li class="social-list__item">
         <a class="social-list__link" href="https://github.com/Himanshunitrr"  target="_blank"><i class="fab fa-github"></i></a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://www.linkedin.com/in/himanshu-m-432608b7/"  target="_blank"><i class="fa fa-linkedin-square"></i></a>
       </li>
     </ul>
   </footer>
