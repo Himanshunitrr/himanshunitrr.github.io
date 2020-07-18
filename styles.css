@@ -331,6 +331,8 @@ header {
 }
 .service {
   margin-bottom: 4em;
+  box-shadow: var(--bs);
+  padding: 5px 10px;
 }
 .service p{
   text-align: justify;
