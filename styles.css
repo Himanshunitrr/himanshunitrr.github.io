@@ -514,6 +514,7 @@ header {
   justify-content: center;
   margin: 2em 0;
   padding: 0;
+  transition: 0.4s ease;
 }
 
 .social-list__item:hover{
