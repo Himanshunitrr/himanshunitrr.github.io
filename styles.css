@@ -501,6 +501,7 @@ header {
 .footer__link:hover {
   display: inline-block;
   transform: scale(1.2);
+  transition: transform 0.4s ease-in-out;
 }
 
 .footer a {
@@ -518,6 +519,7 @@ header {
 
 .social-list__item:hover{
   transform: scale(1.4);
+  transition: transform 0.4s ease-in-out;
 }
 
 .social-list__item {
