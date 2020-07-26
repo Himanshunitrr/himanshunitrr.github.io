@@ -463,7 +463,7 @@ navLinks.forEach(link => {
 
 $(function () {
     $("#quote").typed({
-        strings: ["C++","Python", "JavaScript", "HTML", "CSS", "OpenCV", "React", "NumPy", "Linux", "Bash-Scripting", "Node.js", "Express.js", "MongoDB"],
+        strings: ["C++","Python", "JavaScript","PHP","jQuery","Docker","Chart.js","AJAX","Git","GitHub","BootStrap","Sass","Redux", "HTML", "CSS", "OpenCV", "React", "NumPy", "Linux", "Bash-Scripting", "Node.js", "Express.js", "MongoDB"],
         typeSpeed: 100
     });
     $("#quote2").typed({
@@ -471,3 +471,4 @@ $(function () {
         typeSpeed: 100
     });
 });
+

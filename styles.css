@@ -496,6 +496,7 @@ header {
 
 .footer__link {
   font-weight: var(--fw-bold);
+  transition: transform 0.4s ease-in-out;
 }
 
 .footer__link:hover {
@@ -522,6 +523,7 @@ header {
 
 .social-list__item {
   margin: 0 0.5em;
+  transition: transform 0.4s ease-in-out;
 }
 
 .social-list__link {
