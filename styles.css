@@ -47,8 +47,21 @@ body {
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
   line-height: 1.6;
+  scrollbar-width: auto;
+  scrollbar-color: var(--clr-accent) var(--clr-light);
+}
+body::-webkit-scrollbar {
+  width: 15px;
 }
 
+body::-webkit-scrollbar-track {
+  background: var(--clr-light);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--clr-accent) ;
+  border-radius: 6px;
+  border: 3px solid var(--clr-light);
+}
 section {
   padding: 5em 2em;
 }
@@ -254,7 +267,8 @@ header {
 
 /* Intro section */
 .alm{
-  width: 100vw;
+  width: 99vw;
+  margin: 0 auto;
   height: 100vh;
   background: var(--clr-dark);
 }

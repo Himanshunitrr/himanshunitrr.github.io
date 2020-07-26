@@ -467,8 +467,9 @@ $(function () {
         typeSpeed: 100
     });
     $("#quote2").typed({
-        strings: ["All Lives Matter"],
-        typeSpeed: 100
+        strings: ["All gave some, some gave all"],
+        typeSpeed: 100,
+        loop: false
     });
 });
 
