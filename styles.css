@@ -266,11 +266,15 @@ header {
 
 
 /* Intro section */
+#particles-js{
+  width: 99vw;
+  margin: 0 auto;
+  height: 100vh;
+}
 .alm{
   width: 99vw;
   margin: 0 auto;
   height: 100vh;
-  background: var(--clr-dark);
 }
 .alm span{
   color: var(--clr-accent);
