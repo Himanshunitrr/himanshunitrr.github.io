@@ -266,15 +266,15 @@ header {
 }
 
 /* Intro section */
-.container {
-  width: 100%;
-  height: 100%;
+.particles-box {
+  width: 100vw;
+  height: 100vh;
   background: #111;
 }
 .alm {
   position: absolute;
   width: 99vw;
-  bottom: 20vh;
+  bottom: 30vh;
 }
 .alm span {
   color: var(--clr-accent);
@@ -283,7 +283,7 @@ header {
 }
 .alm-pad {
   /* padding-top: 40vh; */
-  padding-bottom: 20vh;
+  /* padding-bottom: 20vh; */
 
 }
 .intro {
