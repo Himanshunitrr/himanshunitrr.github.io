@@ -267,7 +267,7 @@ header {
 
 /* Intro section */
 .particles-box {
-  width: 100vw;
+  width: 99vw;
   height: 100vh;
   background: #111;
 }
