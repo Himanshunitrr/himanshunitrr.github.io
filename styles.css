@@ -267,9 +267,10 @@ header {
 
 /* Intro section */
 .particles-box {
-  width: 99vw;
+  width: 100vw;
   height: 100vh;
   background: #111;
+  margin: 0 auto;
 }
 .alm {
   position: absolute;
