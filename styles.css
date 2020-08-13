@@ -238,6 +238,7 @@ header {
 }
 #quote3 {
   font-size: 38px;
+  color: var(--clr-accent);
 }
 .nav-open .nav {
   transform: translateY(0);
@@ -687,8 +688,8 @@ header {
   .nav-open .nav-addon {
     transform: translateY(0);
   }
-  .nav-addon img{
+  .nav-addon img {
     width: 60%;
-    height: 50%;
+    height: 60%;
   }
 }
