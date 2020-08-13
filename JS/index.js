@@ -1,5 +1,6 @@
 // just checking sth
 const navToggle = document.querySelector(".nav-toggle");
+const navAddOn = document.querySelector(".nav-addon");
 const navLinks = document.querySelectorAll(".nav__link");
 const track = document.querySelector(".carousel__track");
 const slides = Array.from(track.children);
@@ -62,6 +63,9 @@ nextButton.addEventListener("click", (e) => {
 });
 
 navToggle.addEventListener("click", () => {
+  document.body.classList.toggle("nav-open");
+});
+navAddOn.addEventListener("click", () => {
   document.body.classList.toggle("nav-open");
 });
 
@@ -602,5 +606,10 @@ $(function () {
     strings: ["All gave some, some gave all"],
     typeSpeed: 100,
     loop: false,
+  });
+  $("#quote3").typed({
+    strings: ["Himanshu Maurya"],
+    typeSpeed: 100,
+    loop: true,
   });
 });

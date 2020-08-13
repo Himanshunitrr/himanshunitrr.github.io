@@ -174,14 +174,35 @@ header {
   color: var(--clr-light);
   top: 0;
   bottom: 0;
-  left: 0;
+  left: 50%;
   right: 0;
   z-index: 100;
-
-  transform: translateX(100%);
+  transform: translateY(100%);
   transition: transform 1s cubic-bezier(0.5, 0, 0.5, 1);
+  opacity: 95%;
 }
-
+.nav-addon {
+  position: fixed;
+  background: var(--clr-dark);
+  color: var(--clr-light);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 50%;
+  z-index: 100;
+  transform: translateY(-100%);
+  transition: transform 1s cubic-bezier(0.5, 0, 0.5, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* opacity: 95%; */
+}
+.nav-addon img {
+  width: 30%;
+  height: 40%;
+  border-radius: 50%;
+}
 .nav__list {
   list-style: none;
   display: flex;
@@ -215,9 +236,14 @@ header {
   z-index: 1000;
   position: fixed;
 }
-
+#quote3 {
+  font-size: 38px;
+}
 .nav-open .nav {
-  transform: translateX(0);
+  transform: translateY(0);
+}
+.nav-open .nav-addon {
+  transform: translateY(0);
 }
 
 .nav-open .nav-toggle {
@@ -225,14 +251,13 @@ header {
 }
 
 .nav-open .hamburger {
-  background: var(--clr-optional);
   transform: rotate(90deg);
 }
 .nav-open .hamburger::before {
-  background: var(--clr-optional);
+  /* background: var(--clr-optional); */
 }
 .nav-open .hamburger::after {
-  background: var(--clr-optional);
+  /* background: var(--clr-optional); */
 }
 
 .hamburger {
@@ -630,4 +655,40 @@ header {
 }
 .portfolio-item-individual img {
   padding-right: 20px;
+}
+
+@media (max-width: 500px) {
+  /* .nav-addon img{
+    width: 80%;
+    height: 35%;
+  }
+  #quote3{
+    font-size: 24px;
+  } */
+  .nav {
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    transform: translateY(100%);
+  }
+  .nav-addon {
+    top: 0;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    transform: translateY(-100%);
+  }
+  .nav-open .nav {
+    transform: translateY(0);
+  }
+  .nav-open .nav-addon {
+    transform: translateY(0);
+  }
+  .nav-addon img{
+    width: 60%;
+    height: 50%;
+  }
 }
