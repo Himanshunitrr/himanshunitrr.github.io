@@ -15,6 +15,21 @@
   --clr-dark: #303030;
   --clr-accent: #ff5376;
   --clr-optional: #02c39a;
+  /* dark theme variables */
+  --dark-theme-bg: #303030;
+  --dark-theme-another-bg: #1c0b19;
+  --dark-theme-fc: #fff;
+  --dark-theme-another-fc: #ff5376;
+  /* light theme variables */
+  --light-theme-bg: #eee;
+  --light-theme-another-bg: #ff5376;
+  --light-theme-fc: #303030;
+  --light-theme-another-fc: #fff;
+  /* Solarized theme variables */
+  --solarized-theme-bg: #073642;
+  --solarized-theme-another-bg: #002935;
+  --solarized-theme-fc: ##268bd2;
+  --solarized-theme-another-fc: #2aa198;
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -24,7 +39,24 @@
   --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
     0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
 }
-
+.light {
+  --bg: var(--light-theme-bg);
+  --another-bg: var(--light-theme-another-bg);
+  --text: var(--light-theme-fc);
+  --another-text: var(--light-theme-another-fc);
+}
+.dark {
+  --bg: var(--dark-theme-bg);
+  --another-bg: var(--dark-theme-another-bg);
+  --text: var(--dark-theme-fc);
+  --another-text: var(--dark-theme-another-fc);
+}
+.solarize {
+  --bg: var(--solarized-theme-bg);
+  --another-bg: var(--solarized-theme-another-bg);
+  --text: var(--solarized-theme-fc);
+  --another-text: var(--solarized-theme-another-fc);
+}
 @media (min-width: 800px) {
   :root {
     --fs-h1: 4.5rem;
@@ -160,7 +192,22 @@ header {
   padding: 1em;
   background: #111;
 }
-
+.theme-selector-box {
+  position: absolute;
+  min-width: 330px;
+  min-height: 60px;
+  color: var(--clr-accent);
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+}
+.theme-selector-box div {
+  cursor: pointer;
+  padding: 5px 18px;
+}
+.theme-icon {
+  padding: 5px 10px;
+}
 .logo {
   width: 60px;
   height: 80px;
@@ -240,7 +287,6 @@ header {
   font-size: 38px;
   color: var(--clr-accent);
   box-shadow: var(--bs);
-
 }
 .nav-open .nav {
   transform: translateY(0);
