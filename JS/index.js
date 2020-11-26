@@ -11,11 +11,11 @@ const innerWidth = window.innerWidth;
 let carousel = document.querySelector(".carousel");
 let portfolio = document.querySelector(".portfolio");
 
-if (innerWidth <= 920) {
+/* if (innerWidth <= 920) {
   carousel.classList.add("is-hidden");
 } else {
   portfolio.classList.add("is-hidden");
-}
+} */
 const setSlidePosition = (slide, index) => {
   slide.style.left = slideWidth * index + "px";
 };
