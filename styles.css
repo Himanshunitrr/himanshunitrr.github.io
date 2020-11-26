@@ -597,12 +597,7 @@ header {
   width: 800px;
   margin: 0 auto;
 }
-/* Quick fix for carousel for small devices */
-@media (max-width: 440px){
-  .carousel{
-    max-width: 330px;
-  }
-}
+
 
 .carousel__image {
   width: 100%;
@@ -641,6 +636,18 @@ header {
 }
 .carousel__button--right {
   right: -40px;
+}
+/* Quick fix for carousel for small devices */
+@media (max-width: 440px){
+  .carousel{
+    max-width: 330px;
+  }
+  .carousel__button--left {
+  left: -26px;
+}
+.carousel__button--right {
+  right: -26px;
+}
 }
 .current-slide {
   transform: scale(1.4, 1.2);
