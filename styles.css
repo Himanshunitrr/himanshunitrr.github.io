@@ -640,7 +640,7 @@ header {
 /* Quick fix for carousel for small devices */
 @media (max-width: 440px){
   .carousel{
-    max-width: 330px;
+    max-width: 300px;
   }
   .carousel__button--left {
   left: -26px;
