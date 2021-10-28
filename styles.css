@@ -496,7 +496,8 @@ header {
     grid-area: img;
     position: relative;
     z-index: 2;
-    height: 400px;
+    height: 620px;
+    max-width: 130%;
   }
 }
 /* Skills */

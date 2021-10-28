@@ -603,7 +603,7 @@ $(function () {
     typeSpeed: 100,
   });
   $("#quote2").typed({
-    strings: ["All gave some, some gave all"],
+    strings: ["Ontology, Machine Learning, Art and Adventures"],
     typeSpeed: 100,
     loop: false,
   });
@@ -613,3 +613,5 @@ $(function () {
     loop: true,
   });
 });
+
+// .
